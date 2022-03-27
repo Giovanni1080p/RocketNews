@@ -13,8 +13,8 @@
 ## 💻 Atualizações futuras
 
 
-[ ] Responsividade
-[ ] Efeitos css
+*[ ] Responsividade
+*[ ] Efeitos css
 
 ## 🤝 Colaboradores
 
