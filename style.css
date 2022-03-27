@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+body{
+    background: url(assets/read_news.jpg) top right / 50% 100% no-repeat,
+    black top left / 50% 100% no-repeat;
+    font-family: 'Spartan', sans-serif;
+    height: auto;
+}
+header{
+    margin: 2%;
+    padding: 2%;
+}
+main{
+    margin: 2%;
+    padding: 2%;
+}
+h1{
+    font-weight: 800;
+    color: #04D361;
+}
+.p1{
+    font-weight: 300;
+    color: aliceblue;
+}
+.p2{
+    font-weight: 100;
+    color: aliceblue;
+}
+form{
+    display: flex;
+    -ms-flex-align: center;
+    margin: 2%;
+    padding: 2%;
+    align-items: baseline;
+    
+}
+#mail{
+    width: 60%;
+    font-size: 30px;
+    padding: 5px;
+    border: 0;
+font-family: "spartan";
+box-shadow: 10px 5px 5px black;
+}
+button{
+    
+    padding: 5px;
+    font-size: 30px;
+    background-color: #8257e5;
+    color: black;
+    border: 0;
+    font-family: "spartan";
+    font-weight: 300;
+    box-shadow: 10px 5px 5px black;
+    transition: ease-out 0.3s;
+}
+button:hover{
+    color: wheat;
+    background-color: red;
+}
+
+@media (max-width: 600px)
+{
+body{
+  background: black top left / 50%  no-repeat;
+}
+header{
+    text-align: center;
+}
+form{
+    display: flex;
+    -ms-flex-align: center;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    
+}
+#mail{
+    width: 60%;
+    font-size: 15px;
+    padding: 5px;
+    border: 0;
+font-family: "spartan";
+box-shadow: 10px 5px 5px black;
+}
+button{
+    
+    padding: 5px;
+    font-size: 15px;
+    background-color: #8257e5;
+    color: black;
+    border: 0;
+    font-family: "spartan";
+    font-weight: 300;
+    box-shadow: 10px 5px 5px black;
+    transition: ease-out 0.3s;}
+    button:hover{
+        color: wheat;
+        background-color: red;}
+    }
